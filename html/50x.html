@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>错误</title>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+        background: #fbfbfd;
+    }
+    #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #body {
+        width: 35em;
+        border-radius: 10px;
+        background: #00000010;
+        padding: 3px 30px;
+    }
+</style>
+</head>
+<body>
+<div id="overlay">
+        <div id="body">
+            <h1>错误</h1>
+            <p>很抱歉，您正在查找的页面当前不可用，请稍后再试。</p>
+            <p>如果您是管理员，请查看错误日志以了解详细信息。</p>
+            <p style="text-align: end;"><em>Super-Nginx (main-version)<br/>Created by Hmjz100 Based On Nginx (nginx-version)</em></p>
+        </div>
+    </div>
+</body>
+</html>

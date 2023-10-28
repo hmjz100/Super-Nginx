@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>提示</title>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+        background: #fbfbfd;
+    }
+    #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #body {
+        width: 35em;
+        border-radius: 10px;
+        background: #00000010;
+        padding: 3px 30px;
+    }
+</style>
+</head>
+<body>
+    <div id="overlay">
+        <div id="body">
+            <h1>提示</h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Super-Nginx 默认替换 www.google.com 的 Recaptcha 服务为镜像地址，防止部分网站登陆时的 Recaptcha 验证码加载不出来。</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果您不想看到此页面，并且您的网络环境可以访问Google服务，请修改hosts文件，将“<code>127.0.0.1 www.google.com</code>”这一行删除。</p>
+            <p style="text-align: end;"><em>感谢使用Super-Nginx (main-version)!<br/>Created by Hmjz100 Based On Nginx (nginx-version)</em></p>
+        </div>
+    </div>
+</body>
+</html>

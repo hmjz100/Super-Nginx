@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>欢迎!</title>
+<script>
+    function startgame() {
+        document.getElementById("body").style.width = "1024px";
+        document.getElementById("tips").remove();
+        document.getElementById("game").src = "./CutTheRope/";
+        document.getElementById("game").style.display = "block";
+    }
+</script>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+        background: #fbfbfd;
+    }
+    #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #body {
+        width: 35em;
+        border-radius: 10px;
+        background: #00000010;
+        padding: 3px 30px;
+    }
+    a {
+        text-decoration: none!important
+    }
+    a:hover {
+        text-decoration: none!important
+    }
+    a {
+        color: #014A8F;
+        -webkit-transition-property: color;
+        -webkit-transition-duration: 0.0s;
+        cursor: pointer;
+    }
+    iframe {
+        display: none;
+        width: 1024px;
+        height: 576px;
+        border: none;
+    }
+</style>
+</head>
+<body>
+<div id="overlay">
+        <div id="body">
+            <h1>欢迎!</h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果您看到此页面，那就代表 Super-Nginx 已经安装并且成功运行啦！不过还差一步就能正确打开你要的网站了，别忘了把hosts.cfg里的内容添加到hosts哦！
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有关Nginx的在线文档与商业支持，请参阅<a target="_blank" href="https://nginx.org/">nginx.org</a>。</p>
+            <p style="text-align: end;" id="tips"><a onclick="startgame()">玩玩割绳子小游戏?</a></p>
+            <iframe id="game"></iframe>
+            <p style="text-align: end;"><em>感谢使用Super-Nginx (main-version)!<br/>Created by Hmjz100 Based On Nginx (nginx-version)</em></p>
+        </div>
+    </div>
+</body>
+</html>
