@@ -1,0 +1,93 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 5 (0x5)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CN, O=Virtual Institute, CN=Virtual CA
+        Validity
+            Not Before: Oct 28 16:17:51 2023 GMT
+            Not After : Oct 27 16:17:51 2024 GMT
+        Subject: C=CN, O=Virtual Institute, CN=Virtual Web CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c5:ee:65:02:bb:5b:a2:2c:cd:bf:1c:b5:92:ec:
+                    73:f3:79:83:d7:6e:d8:e9:2a:c5:f5:71:5c:f0:c7:
+                    e7:53:ac:ae:de:4d:06:68:dc:18:10:4c:8c:1a:de:
+                    9f:ed:43:6b:f7:a4:36:de:b9:b7:4f:06:dd:0e:f8:
+                    f3:69:d3:54:89:fa:46:4b:d1:d6:e0:40:3d:80:ec:
+                    65:e0:c4:5a:4a:73:4c:a2:a6:de:88:e9:3f:dd:2f:
+                    da:a6:cf:b3:88:7f:52:3e:19:98:fb:cf:7f:a0:6d:
+                    1f:57:4c:df:aa:41:1a:f9:26:e0:b4:f5:f8:04:27:
+                    bd:30:46:1f:77:cf:8f:d2:b4:d5:d4:ae:2c:7d:ea:
+                    59:0b:3e:64:4e:90:87:41:8a:69:3f:4b:1f:61:0d:
+                    ae:26:9e:58:38:b9:4d:f6:95:b6:b2:de:c9:43:bf:
+                    08:1c:40:36:17:94:2e:74:1d:af:56:b4:b1:12:08:
+                    cc:b4:57:18:26:54:9e:db:90:e0:a2:a0:bd:e6:8b:
+                    e9:42:de:59:ea:3c:ac:d4:99:84:e5:24:ea:d8:ee:
+                    0d:59:c5:15:b4:20:e8:2a:d4:e2:94:2c:60:1c:64:
+                    6f:34:b2:37:5a:0c:89:ff:94:4a:c8:23:e5:f8:14:
+                    43:a9:aa:ae:b5:db:32:b3:2c:63:a7:c7:66:bc:c0:
+                    f1:b3
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: 
+                Digital Signature
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Alternative Name: 
+                DNS:localhost, DNS:*.pixiv.net, DNS:pixiv.net, DNS:*.secure.pixiv.net, DNS:pixivision.net, DNS:*.pixivision.net, DNS:pximg.net, DNS:*.pximg.net, DNS:pixivsketch.net, DNS:*.pixivsketch.net, DNS:public-api.secure.pixiv.net, DNS:google.com, DNS:*.google.com, DNS:91porn.com, DNS:*.91porn.com, DNS:huggingface.co, DNS:*.huggingface.co, DNS:hf.space, DNS:*.hf.space
+            X509v3 Subject Key Identifier: 
+                0A:D1:7C:36:A9:0C:90:E4:6B:86:20:F2:70:9D:5D:FF:DB:4D:39:CA
+            X509v3 Authority Key Identifier: 
+                DirName:/C=CN/O=Virtual Institute/CN=Virtual CA
+                serial:43:56:83:F4:32:E0:5C:0C:AB:7D:25:FB:AE:D8:44:68:65:A6:5E:A6
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        1c:bd:3b:c3:27:9a:c2:b5:11:00:57:85:45:3a:a4:c4:f2:b5:
+        19:dc:1a:05:d5:81:c8:fb:b3:87:c8:a3:82:a6:ec:5d:9c:98:
+        4c:2d:13:a0:9c:3d:2a:df:88:09:49:1c:9f:73:0e:64:08:1e:
+        2e:87:12:1d:2e:7f:44:0a:1d:6c:c4:e3:30:fb:06:6f:a8:df:
+        0b:89:57:ff:10:86:40:72:a9:03:62:f6:d8:7d:fb:d3:a9:fc:
+        f7:ad:05:f1:c4:70:e6:5a:64:e3:cf:d4:5b:95:7e:74:86:f2:
+        38:fc:84:2b:8c:51:c4:f4:b6:c2:e4:74:b8:06:42:cd:81:5b:
+        1d:03:6f:5e:cc:22:c2:48:1c:80:49:fa:58:bc:5e:5d:99:ad:
+        46:d4:e9:26:00:e5:ba:4e:6e:c1:97:08:c4:5f:ab:c7:ea:d2:
+        d5:da:f1:82:ac:cb:df:41:7a:05:3c:d6:3e:94:57:fa:9d:55:
+        6f:34:0c:30:86:a5:43:89:66:1a:4a:4a:3a:da:59:1a:6c:63:
+        fa:85:af:e3:7d:80:55:65:3e:67:b7:c4:ec:e5:ab:1b:d7:95:
+        f1:34:a2:1b:73:0f:bf:a2:89:21:21:e5:54:6e:01:71:3f:82:
+        0c:d4:a2:d3:8d:4e:3d:e1:4f:e0:ae:b7:09:1d:6c:1e:28:04:
+        d4:53:9f:7f
+-----BEGIN CERTIFICATE-----
+MIIE6zCCA9OgAwIBAgIBBTANBgkqhkiG9w0BAQsFADA+MQswCQYDVQQGEwJDTjEa
+MBgGA1UECgwRVmlydHVhbCBJbnN0aXR1dGUxEzARBgNVBAMMClZpcnR1YWwgQ0Ew
+HhcNMjMxMDI4MTYxNzUxWhcNMjQxMDI3MTYxNzUxWjBCMQswCQYDVQQGEwJDTjEa
+MBgGA1UECgwRVmlydHVhbCBJbnN0aXR1dGUxFzAVBgNVBAMMDlZpcnR1YWwgV2Vi
+IENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxe5lArtboizNvxy1
+kuxz83mD127Y6SrF9XFc8MfnU6yu3k0GaNwYEEyMGt6f7UNr96Q23rm3TwbdDvjz
+adNUifpGS9HW4EA9gOxl4MRaSnNMoqbeiOk/3S/aps+ziH9SPhmY+89/oG0fV0zf
+qkEa+SbgtPX4BCe9MEYfd8+P0rTV1K4sfepZCz5kTpCHQYppP0sfYQ2uJp5YOLlN
+9pW2st7JQ78IHEA2F5QudB2vVrSxEgjMtFcYJlSe25DgoqC95ovpQt5Z6jys1JmE
+5STq2O4NWcUVtCDoKtTilCxgHGRvNLI3WgyJ/5RKyCPl+BRDqaqutdsysyxjp8dm
+vMDxswIDAQABo4IB7jCCAeowCwYDVR0PBAQDAgeAMB0GA1UdJQQWMBQGCCsGAQUF
+BwMBBggrBgEFBQcDAjAJBgNVHRMEAjAAMIIBKwYDVR0RBIIBIjCCAR6CCWxvY2Fs
+aG9zdIILKi5waXhpdi5uZXSCCXBpeGl2Lm5ldIISKi5zZWN1cmUucGl4aXYubmV0
+gg5waXhpdmlzaW9uLm5ldIIQKi5waXhpdmlzaW9uLm5ldIIJcHhpbWcubmV0ggsq
+LnB4aW1nLm5ldIIPcGl4aXZza2V0Y2gubmV0ghEqLnBpeGl2c2tldGNoLm5ldIIb
+cHVibGljLWFwaS5zZWN1cmUucGl4aXYubmV0ggpnb29nbGUuY29tggwqLmdvb2ds
+ZS5jb22CCjkxcG9ybi5jb22CDCouOTFwb3JuLmNvbYIOaHVnZ2luZ2ZhY2UuY2+C
+ECouaHVnZ2luZ2ZhY2UuY2+CCGhmLnNwYWNlggoqLmhmLnNwYWNlMB0GA1UdDgQW
+BBQK0Xw2qQyQ5GuGIPJwnV3/2005yjBjBgNVHSMEXDBaoUKkQDA+MQswCQYDVQQG
+EwJDTjEaMBgGA1UECgwRVmlydHVhbCBJbnN0aXR1dGUxEzARBgNVBAMMClZpcnR1
+YWwgQ0GCFENWg/Qy4FwMq30l+67YRGhlpl6mMA0GCSqGSIb3DQEBCwUAA4IBAQAc
+vTvDJ5rCtREAV4VFOqTE8rUZ3BoF1YHI+7OHyKOCpuxdnJhMLROgnD0q34gJSRyf
+cw5kCB4uhxIdLn9ECh1sxOMw+wZvqN8LiVf/EIZAcqkDYvbYffvTqfz3rQXxxHDm
+WmTjz9RblX50hvI4/IQrjFHE9LbC5HS4BkLNgVsdA29ezCLCSByASfpYvF5dma1G
+1OkmAOW6Tm7BlwjEX6vH6tLV2vGCrMvfQXoFPNY+lFf6nVVvNAwwhqVDiWYaSko6
+2lkabGP6ha/jfYBVZT5nt8Ts5asb15XxNKIbcw+/ookhIeVUbgFxP4IM1KLTjU49
+4U/grrcJHWweKATUU59/
+-----END CERTIFICATE-----
