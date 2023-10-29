@@ -10,7 +10,10 @@
   <sub>适用于 Linux，macOS，Windows 平台</sub>
 </div>
 
-### LICENSE 许可证
+## 使用教程
+查看Wiki
+
+## LICENSE 许可证
 
 <!--a href="http://www.wtfpl.net/"><img src="https://ngx.moezx.cc/share/svg/brands/WTFPL_badge.svg" width="80" alt="WTFPL" /></a-->
 [![License](https://ngx.moezx.cc/share/svg/brands/WTFPL_badge.svg)](http://www.wtfpl.net/about/)
